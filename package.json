@@ -11,10 +11,12 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "npx react-scripts build",
-    "test": "react-scripts test"
-  },
+  "start": "react-scripts start",
+  "build": "npx react-scripts build",
+  "test": "react-scripts test",
+  "postinstall": "chmod +x node_modules/.bin/react-scripts || true"
+}
+,
   "browserslist": {
     "production": [
       ">0.2%",
